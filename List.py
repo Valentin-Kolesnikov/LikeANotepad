@@ -1,22 +1,27 @@
-# нужно сделать цикл, спрашивая каждый раз нужен ли параметр
 parameters = int(
-    input("Do you need " "1" "-name, " "2" "-name and additional parameter?:")
+    input("Do you need " "1" "- the main info, " "2" " - the main info and additional info?: ")
 )
+
 names = []
 additionalp = []
-total = int(input("How many?:"))
-i = 0
 a = 1
-while i < total:
-    name = input("Name:")
-    if parameters == 2:
-        point = input("Additional info:")
-        additionalp.append(point)
+stopped = False
+
+while True:
+    name = input("Info or stop: ")
     names.append(name)
-    i += 1
+
+    if name.lower() in ["stop", "enough", "yes", "-"]:
+        names.pop()
+        stopped = True
+        break
+
+    if parameters == 2 and not stopped:
+        point = input("Additional info: ")
+        additionalp.append(point)
+
 print("")
 print("List:")
-
 if parameters == 1:
     for first in names:
         print(f"{a}) {first}")
