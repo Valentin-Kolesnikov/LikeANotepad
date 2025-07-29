@@ -6,14 +6,14 @@ This is a simple Python script that interactively collects and displays a list o
 
 Ideal for quickly gathering structured data from user input.
 
-# Features:
+## Features:
 
 - Interactive CLI prompts
 - Two input modes (basic or with additional details)
 - Custom stop-words to end input session
 - Neat and numbered output formatting
 
-# How to use?:  
+## How to use?:  
 
 1. Choose mode: 1 = main info only; 2 = main + additional info
 
