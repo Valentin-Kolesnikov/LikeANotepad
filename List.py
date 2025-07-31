@@ -32,3 +32,5 @@ elif parameters == 2:
         a += 1
 
 print("\n-----------------------------------------------------\n")
+
+input("\nPress Enter to exit...")
