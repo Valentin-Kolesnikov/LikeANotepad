@@ -15,10 +15,12 @@ Ideal for quickly gathering structured data from user input.
 
 ## How to use?:  
 
-1. Choose mode: 1 = main info only; 2 = main + additional info
+1. Open the .exe file or .py if you have an interpretator
 
-2. To stop input, type: stop, enough, yes, or -
+2. Choose mode: 1 = main info only; 2 = main + additional info
 
-3. The script will output your entries as a formatted, numbered list.
+3. To stop input, type: stop, enough, yes, or -
+
+4. The script will output your entries as a formatted, numbered list.
 
 ## I have completed this project. If I find errors, I will fix them as small fixes. However, they should not be
