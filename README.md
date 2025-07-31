@@ -15,7 +15,7 @@ Ideal for quickly gathering structured data from user input.
 
 ## How to use?:  
 
-1. Open the .exe file or .py if you have an interpretator
+1. Open the .exe file or .py file if you have an interpretator
 
 2. Choose mode: 1 = main info only; 2 = main + additional info
 
