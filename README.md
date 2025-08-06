@@ -23,7 +23,7 @@ The `.exe` file does not have viruses. It was created for convenience. I made th
 
 2. Choose mode: 1 = main info only; 2 = main + additional info.
 
-3. To stop input, type: stop, enough, yes, or -.
+3. To stop input, type: `stop`, `enough`, `yes`, `-` or pressing `Enter`.
 
 4. The script will output your entries as a formatted, numbered list.
 
